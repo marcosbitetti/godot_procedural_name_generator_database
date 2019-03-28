@@ -66,6 +66,7 @@ And create a pull request ([tutorial](https://help.github.com/en/articles/creati
 
 ##### A Factory file
 This is a GDScript class file. That rulled the generation.
+If you not provide one, the engine uses a default Generator.
 
       class Generator:
         var first = Array()
